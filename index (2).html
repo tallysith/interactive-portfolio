@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naphtally's Interactive Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Chat Header with Photo -->
+        <div class="chat-header">
+            <img src="https://via.placeholder.com/50" alt="Your Photo" class="profile-photo">
+            <h1>Naphtally's Interactive Portfolio</h1>
+        </div>
+
+        <!-- Chat Messages -->
+        <div class="chat-messages" id="chat-messages">
+            <!-- Initial Bot Message -->
+            <div class="message bot">
+                <p>Hi! I'm Naphtally. Feel free to ask me anything! Here are some suggested questions:</p>
+                <ul class="suggested-questions">
+                    <li>What is your experience in video editing?</li>
+                    <li>Can you tell me about your education background?</li>
+                    <li>What programming languages do you know?</li>
+                    <li>What projects have you worked on?</li>
+                    <li>Can you share your portfolio or websites you've built?</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Chat Input -->
+        <div class="chat-input">
+            <input type="text" id="question-input" placeholder="Type your question here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
